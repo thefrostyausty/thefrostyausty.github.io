@@ -1,5 +1,5 @@
-# Portfolio
+# Portfolio - Austin J. Robinson
 
-## Austin J. Robinson's personal portfolio page
+## Description
 Here I am creating a portfolio from scratch utilizing Python, Flask, and Jinja. More Details to come...
 
