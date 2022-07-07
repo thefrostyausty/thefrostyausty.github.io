@@ -65,26 +65,48 @@ body {
 }
 
 #javascript {
+    background-color: white;
+    border-radius: 12px;
     width: 5%;
     bottom: 30%;
     left: 20%;
 }
 
 #react {
+    background-color: white;
+    border-radius: 12px;
     width: 5%;
     bottom: 30%;
     left: 26%;
 }
 
-#graphql {
+#python {
+    background-color: white;
+    border-radius: 12px;
     width: 5%;
     bottom: 30%;
     left: 32%;
 }
-
-#air-balloon {
-    width: 10%;
-    bottom: 10%;
+#css {
+    background-color: white;
+    border-radius: 12px;
+    width: 5%;
+    bottom: 30%;
+    right: 32%;
+}
+#django {
+    background-color: white;
+    border-radius: 12px;
+    width: 5%;
+    bottom: 30%;
+    right: 25%;
+}
+#github {
+    background-color: white;
+    border-radius: 12px;
+    width: 5%;
+    bottom: 30%;
+    right: 18%;
 }
 
 .about-me {
@@ -103,6 +125,11 @@ h1 {
     color: #F1E3F3;
     font-family: 'Anton', sans-serif;
     font-size: 80px;
+}
+h3 {
+    color: #F1E3F3;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
 }
 
 p {
@@ -146,3 +173,46 @@ a {
   width: 25%;
   bottom: 10%; 
 }
+
+.projects img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.projects button{
+    background-color: #F1E3F3;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #F1E3F3;
+    color: #62BFED;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }

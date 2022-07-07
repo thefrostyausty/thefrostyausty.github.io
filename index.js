@@ -7,6 +7,10 @@ const letterI = document.getElementById('letter-i')
 const letterN = document.getElementById('letter-n')
 const javascript = document.getElementById('javascript')
 const react = document.getElementById('react')
+const python = document.getElementById('python')
+const django = document.getElementById('django')
+const css = document.getElementById('css')
+const github = document.getElementById('github')
 
 
 
@@ -30,6 +34,10 @@ function move() {
   letterN.style.left = 80 + incrementer * 0.125 + '%'
   javascript.style.left = 20 + incrementer * -2.2 + '%'
   react.style.left = 26 + incrementer * -1.5 + '%'
+  python.style.left = 32 + incrementer * -1.1 + '%'
+  django.style.right = 25 + incrementer * -0.15 + '%'
+  github.style.right = 18 + incrementer * -0.15 + '%'
+  css.style.right = 32 + incrementer * -0.15 + '%'
 }
 
 window.addEventListener('scroll', move)
